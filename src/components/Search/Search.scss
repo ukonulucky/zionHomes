@@ -1,0 +1,58 @@
+.search{
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+    &__header h2{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
+       display: flex;
+         align-items: center;
+         font-size: 2rem;
+         text-transform: capitalize;
+    }
+    &__find{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1.5px solid #333;
+        border-radius: 40px;
+        padding:15px;
+        overflow: hidden;
+        input{
+            width: 300px;
+            height: 30px;
+          outline: none;
+          border: 0;
+          font-size: 1.3rem;
+          padding: 5px;
+
+        }
+    }
+    &__location{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        h4{
+        font-size: 1.2rem;
+         text-transform: capitalize;
+        }
+        select{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          width: 200px;
+          height: 40px;
+          font-size: 1rem;
+          outline: none;
+          padding: 5px;
+          option{
+            font-size: 1.5rem;
+            padding: 5px;
+          }
+        }
+
+
+    }
+}
